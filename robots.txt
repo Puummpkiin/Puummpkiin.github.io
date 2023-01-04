@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://puummpkiin.github.io/sitemap.xml
