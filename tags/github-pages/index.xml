@@ -6,16 +6,7 @@
     <description>Recent content in github pages on Celleestte</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Oct 2022 20:36:05 +0800</lastBuildDate><atom:link href="https://puummpkiin.github.io/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>如何为项目设置一个 GitHub Pages</title>
-      <link>https://puummpkiin.github.io/blog/deploy-project-to-gh-pages/</link>
-      <pubDate>Tue, 18 Oct 2022 20:36:05 +0800</pubDate>
-      
-      <guid>https://puummpkiin.github.io/blog/deploy-project-to-gh-pages/</guid>
-      <description>介绍当仓库中已经有一个 &lt;code&gt;&amp;lt;username&amp;gt;.github.io&lt;/code&gt; 仓库时，如何创建&lt;code&gt;gh-pages&lt;/code&gt;分支来为项目设置 GitHub Pages。</description>
-    </item>
-    
+    <lastBuildDate>Mon, 29 Aug 2022 13:01:30 +0800</lastBuildDate><atom:link href="https://puummpkiin.github.io/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何用 GitHub Pages &#43; Hugo 搭建个人博客</title>
       <link>https://puummpkiin.github.io/blog/create-a-wesite-using-github-pages-and-hugo/</link>
