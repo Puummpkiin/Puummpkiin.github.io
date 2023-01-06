@@ -13,7 +13,16 @@
       <pubDate>Sun, 01 Jan 2023 16:01:02 +0800</pubDate>
       
       <guid>https://puummpkiin.github.io/blog/celleestte/</guid>
-      <description>月亮🌙的背面藏住我宽厚的身影💃🏻</description>
+      <description>月亮的背面藏住我宽厚的身影</description>
+    </item>
+    
+    <item>
+      <title>如何为项目设置一个 GitHub Pages</title>
+      <link>https://puummpkiin.github.io/blog/deploy-project-to-gh-pages/</link>
+      <pubDate>Tue, 18 Oct 2022 20:36:05 +0800</pubDate>
+      
+      <guid>https://puummpkiin.github.io/blog/deploy-project-to-gh-pages/</guid>
+      <description>介绍当仓库中已经有一个 &lt;code&gt;&amp;lt;username&amp;gt;.github.io&lt;/code&gt; 仓库时，如何创建&lt;code&gt;gh-pages&lt;/code&gt;分支来为项目设置 GitHub Pages。</description>
     </item>
     
     <item>
