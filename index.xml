@@ -8,11 +8,11 @@
     <language>en</language>
     <lastBuildDate>Thu, 05 Jan 2023 20:36:05 +0800</lastBuildDate><atom:link href="https://puummpkiin.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>专辑</title>
-      <link>https://puummpkiin.github.io/blog/deploy-project-to-gh-pages/</link>
+      <title>零零散散的Album</title>
+      <link>https://puummpkiin.github.io/blog/album/</link>
       <pubDate>Thu, 05 Jan 2023 20:36:05 +0800</pubDate>
       
-      <guid>https://puummpkiin.github.io/blog/deploy-project-to-gh-pages/</guid>
+      <guid>https://puummpkiin.github.io/blog/album/</guid>
       <description></description>
       
     </item>
@@ -65,7 +65,7 @@
       
       <guid>https://puummpkiin.github.io/booknote/atomic-habits/</guid>
       <description>这本书在刚刚接触「生产力」时就有所耳闻，读完后确实有所收获，改变了自己看待「习惯」的视角。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://puummpkiin.github.io/booknote/atomic-habits/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://puummpkiin.github.io/booknote/atomic-habits/featured.png" />
     </item>
     
     <item>
