@@ -30,11 +30,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.cc4b27851e30e7dff0cd648b9bc7864e9d5435f7d746bedb8f9642b03b9b910a3754bb0aa69fb0054fb2a5cea71f908413aef32360468bb04e2ed31937f0104d.css"
-    integrity="sha512-zEsnhR4w59/wzWSLm8eGTp1UNffXRr7bj5ZCsDubkQo3VLsKpp&#43;wBU&#43;ypc6nH5CEE67zI2BGi7BOLtMZN/AQTQ==" />
-  
-  
-  <script type="text/javascript" src="/js/main.min.cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e.js" integrity="sha512-z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP&#43;DGNKHfuwvY7kxvUdBeoGlODJ6&#43;SfaPg=="></script>
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.80048e367fc1ff5312dd1c725dd36628211ed84466d2a7e66b065c277fd21c75442aaab2fbe406ee53f5ce5ef0a0c04cd4c5ee1ad37240e926bb82299ee3215d.css"
+    integrity="sha512-gASONn/B/1MS3RxyXdNmKCEe2ERm0qfmawZcJ3/SHHVEKqqy&#43;&#43;QG7lP1zl7woMBM1MXuGtNyQOkmu4IpnuMhXQ==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.f94f4c4636d9e3ec8f5ee53cdc8ffa3d01bf87cd92ac85e6797550b1e2b80dc9118d838f3eb24c55109352455e72ff082dfe560283154e5a8f87fd75107b59c4.js"
@@ -133,6 +130,20 @@
   
   
 
+<script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -172,7 +183,8 @@
   </script>
   
   
-</head><body
+</head>
+<body
   class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
   <div id="the-top" class="absolute flex self-center">
     <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
@@ -181,59 +193,69 @@
   </div>
   
   
-  <div style="padding-left:0;padding-right:0"
-    class="flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
     
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
             <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Celleestte</a>
-            
-            
+
+
         </nav>
-        <div class="hidden md:flex items-center space-x-5 md:ml-12">
+        <nav class="hidden md:flex items-center space-x-5 md:ml-12">
 
             
             
-            <a href="/blog/"  class="text-base font-medium text-gray-500 hover:text-gray-900" title="Blog">
-                
-
-
-                
-                Blog
-            </a>
             
-            <a href="/booknote/"  class="text-base font-medium text-gray-500 hover:text-gray-900" title="Book Notes">
-                
+  <a href="/blog/"  class="flex items-center">
+    
+    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="Blog">
+        Blog
+    </p>
+</a>
 
 
-                
-                Book Note
-            </a>
             
-            <a href="/project/"  class="text-base font-medium text-gray-500 hover:text-gray-900" title="Project">
-                
-
-
-                
-                Project
-            </a>
             
-            <a href="/now/"  class="text-base font-medium text-gray-500 hover:text-gray-900" title="Now">
-                
+  <a href="/booknote/"  class="flex items-center">
+    
+    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="Book Notes">
+        Book Note
+    </p>
+</a>
 
 
-                
-                Now
-            </a>
             
-            <a href="/about/"  class="text-base font-medium text-gray-500 hover:text-gray-900" title="About">
-                
+            
+  <a href="/project/"  class="flex items-center">
+    
+    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="Project">
+        Project
+    </p>
+</a>
 
 
-                
-                About
-            </a>
+            
+            
+  <a href="/now/"  class="flex items-center">
+    
+    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="Now">
+        Now
+    </p>
+</a>
+
+
+            
+            
+  <a href="/about/"  class="flex items-center">
+    
+    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="About">
+        About
+    </p>
+</a>
+
+
             
             
 
@@ -254,11 +276,11 @@
             </button>
             
 
-            
+
             
             
 
-        </div>
+        </nav>
         <div class="flex md:hidden items-center space-x-5 md:ml-12">
 
             <span></span>
@@ -299,12 +321,14 @@
 
 
             </div>
-            <div id="menu-wrapper" style="padding-top:25px;"
+            <div id="menu-wrapper" style="padding-top:5px;"
                 class="fixed inset-0 z-30 invisible w-screen h-screen m-auto overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
                 <ul
-                    class="flex movedown flex-col w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl sm:px-14 md:px-24 lg:px-32 sm:py-10 sm:pt-10">
-                    <li class="mb-1">
-                        <span class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li>
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
 
   <span class="relative block icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
@@ -316,68 +340,99 @@
 
                     
                     
-                    <li class="mb-1">
-                        <a  class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
-                            href="/blog/" title="Blog">
-                            <span class="inline-block align-text-bottom">
 
-</span>
-                            
-                            Blog
-                        </a>
-                    </li>
                     
-                    <li class="mb-1">
-                        <a  class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
-                            href="/booknote/" title="Book Notes">
-                            <span class="inline-block align-text-bottom">
+  <li class="mt-1">
+    <a href="/blog/"  class="flex items-center">
+        
+        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="Blog">
+            Blog
+        </p>
+    </a>
+</li>
 
-</span>
-                            
-                            Book Note
-                        </a>
-                    </li>
+
+
                     
-                    <li class="mb-1">
-                        <a  class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
-                            href="/project/" title="Project">
-                            <span class="inline-block align-text-bottom">
 
-</span>
-                            
-                            Project
-                        </a>
-                    </li>
                     
-                    <li class="mb-1">
-                        <a  class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
-                            href="/now/" title="Now">
-                            <span class="inline-block align-text-bottom">
+  <li class="mt-1">
+    <a href="/booknote/"  class="flex items-center">
+        
+        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="Book Notes">
+            Book Note
+        </p>
+    </a>
+</li>
 
-</span>
-                            
-                            Now
-                        </a>
-                    </li>
+
+
                     
-                    <li class="mb-1">
-                        <a  class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
-                            href="/about/" title="About">
-                            <span class="inline-block align-text-bottom">
 
-</span>
-                            
-                            About
-                        </a>
-                    </li>
+                    
+  <li class="mt-1">
+    <a href="/project/"  class="flex items-center">
+        
+        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="Project">
+            Project
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/now/"  class="flex items-center">
+        
+        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="Now">
+            Now
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/about/"  class="flex items-center">
+        
+        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="About">
+            About
+        </p>
+    </a>
+</li>
+
+
+
                     
                     
 
                 </ul>
+                
+
             </div>
         </label>
     </div>
 </div>
+
+
+
+
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
   
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
@@ -385,6 +440,8 @@
 
 
 <article>
+  
+  
   <header id="single_header" class="mt-5 max-w-prose">
     
     <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
@@ -544,7 +601,7 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/create/&#34;);">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/create/&#34;,'_self');">
     <span class="flex">
   <span
     class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
@@ -555,7 +612,7 @@
 
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/diary/&#34;);">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/diary/&#34;,'_self');">
     <span class="flex">
   <span
     class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
@@ -581,13 +638,11 @@
       <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky  lg:top-10 ">
         <details open class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
   <summary
-    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
-  >
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
     Table of Contents
   </summary>
   <div
-    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600"
-  >
+    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
     <li><a href="#celeste">Celeste</a></li>
@@ -607,13 +662,11 @@
 </details>
 <details class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
   <summary
-    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
-  >
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
     Table of Contents
   </summary>
   <div
-    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600"
-  >
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
     <li><a href="#celeste">Celeste</a></li>
@@ -631,6 +684,48 @@
 </nav>
   </div>
 </details>
+
+ 
+<script>
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = e.attr('id');
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+           
+            $(e).removeClass('active').siblings('ul').hide();
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+         
+          $toc.find('a').parent('li').find('ul').hide();
+        
+        onScroll();
+      });
+    }
+  })();
+</script>
 
       </div>
       </div>
@@ -972,15 +1067,13 @@
   </footer>
 </article>
 
-      
       <div class="pointer-events-none absolute top-[100vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
-        <a href="#the-top"
-          class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
-          aria-label="" title="">
-          &uarr;
-        </a>
-      </div>
-      
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer class="py-10 print:hidden">
   
   
